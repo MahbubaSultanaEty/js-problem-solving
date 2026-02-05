@@ -95,3 +95,11 @@ console.log(bill);
 // Input:
 // prices = { pen: 10, book: 50 };
 // items = ["pen", "pen", "book", "pen"];
+bill = calcBill({ pen: 10, book: 50 }, ["pen", "pen", "book", "pen"])
+
+// test case 03
+let output2 = calcBill(
+  { apple: 30, banana: 10, orange: 20 },
+  ["apple", "banana", "apple", "orange", "banana", "banana"]
+);
+console.log(output2);
