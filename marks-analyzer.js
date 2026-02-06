@@ -75,7 +75,7 @@ function analyzeMarks(marksObj) {
     let average = total / Object.keys(marksObj).length;
     return {
         total,
-        highestMark: highestSubject,
+        highestSubject: highestMark,
         lowestSubject: lowestMark,
         average
     }
