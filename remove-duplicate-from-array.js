@@ -22,3 +22,12 @@ function removeDuplicates(arr) {
 
 let numbers = removeDuplicates([5, 3, 5, 2, 3, 9, 2, 7]);
 console.log(numbers);
+
+//Test case 2
+// Input:
+//  [1, 1, 1, 1]
+// Output:
+// [1]
+
+let numbers2= removeDuplicates([1, 1, 1, 1])
+console.log(numbers2);
